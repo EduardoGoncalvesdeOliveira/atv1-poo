@@ -11,7 +11,10 @@ public class GerenciamentoTarefasAPP {
         Scanner teclado = new Scanner(System.in);
 
         Tarefas tarefa = new Tarefas();
-        tarefa.cadastroDasTarefas();
-    }
+        tarefa.cadastrarTarefas();
+        
+        Tarefas novoCadastro = new Tarefas();
+        novoCadastro.novoCadastro();
 
+    }
 }
